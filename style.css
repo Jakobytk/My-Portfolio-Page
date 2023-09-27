@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: grey;
+    color: white;
+  }
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+  }
+  
+  nav a {
+    color: navy;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
