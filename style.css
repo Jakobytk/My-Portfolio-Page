@@ -10,7 +10,7 @@
     background-color: grey;
     color: white;
   }
-
+/*width is there to make sure they do not overlap one another*/
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -22,9 +22,9 @@ nav ul {
     font-weight: bold;
     font-size: larger;
   }
-  
+  /*Nice display so that it is known when on link*/
   nav a:hover {
-    color: #fff;
+    color: lightblue;
   }
 
   body {
@@ -42,13 +42,13 @@ nav ul {
   .header {
     font-size: 300%;
   }
-
+/*keeps the images wrapped*/
   .products {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
-  
+  /*these characteristics must be put in order or the computer does not recognize*/
   .card {
   width: auto;
   height: auto;
@@ -58,5 +58,11 @@ nav ul {
   margin: 20px;
   }
 
- 
+  footer {
+    text-align: center;
+    font-weight: bold;
+  }
 
+  #font {
+    font-size: 20px;
+  }
