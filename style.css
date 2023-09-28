@@ -66,3 +66,24 @@ nav ul {
   #font {
     font-size: 20px;
   }
+
+  @media screen and (max-width: 1850px) {
+    section img { 
+      flex-direction: column;
+      width: 100%;
+      max-width: 1800px;
+    } 
+    .heads {
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+  }
+
+ 
